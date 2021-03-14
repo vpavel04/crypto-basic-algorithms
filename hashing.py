@@ -1,6 +1,5 @@
 import hashlib
 
-# google knows:
 # MD5("password") = 5f4dcc3b5aa765d61d8327deb882cf99
 # 2^53 flops has the supercomputer
 
@@ -12,8 +11,8 @@ import hashlib
 # In 2019, researchers found a chosen-prefix collision attack against SHA-1 with computing complexity between 2^66.9 
 # and 269.4 and cost less than 100,000 US dollars. In 2020, researchers reduced the complexity of chosen-prefix collision
 # attack against SHA-1 to 2^63.4
+# SHA1 is broken in theory.  There's an attack that should produce two colliding files in about 261 SHA1 calls
 
-HA1 is broken in theory.  There's an attack that should produce two colliding files in about 261 SHA1 calls
 var = b''
 ret = hashlib.md5(var).hexdigest()
 print("MD5   :" + ret)

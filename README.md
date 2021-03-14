@@ -1,1 +1,1 @@
-# crypto-tutorial-py
+Sample files to explore basic encryption concepts
