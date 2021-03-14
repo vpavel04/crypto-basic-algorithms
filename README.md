@@ -1,1 +1,1 @@
-Sample files to explore basic encryption concepts
+Sample files to explore basic cryptography concepts
